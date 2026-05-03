@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     if (this.getAttribute('href').startsWith('#')) {
@@ -15,7 +15,6 @@ function setActiveNav() {
   });
 }
 
-=======
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     if (this.getAttribute('href').startsWith('#')) {
@@ -32,5 +31,5 @@ function setActiveNav() {
   });
 }
 
->>>>>>> 91d58e44b9e081d5b5e2471efb92d1ed0d0d26bf
+
 document.addEventListener('DOMContentLoaded', setActiveNav);
